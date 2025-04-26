@@ -7,7 +7,6 @@ import NavigationBar from './components/layout/NavigationBar';
 import Footer from './components/layout/Footer';
 import { CartProvider } from './contexts/CartContext';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
 
 function App() {
   return (
