@@ -1,0 +1,73 @@
+.bike-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
+    gap: 25px; 
+    padding: 30px; 
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+  }
+  
+  .bike-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+    transition: box-shadow 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .bike-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-5px); 
+  }
+  
+  .bike-image-container {
+    position: relative;
+    overflow: hidden; 
+    border-bottom: 1px solid #eee; 
+  }
+  
+  .bike-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .bike-card:hover .bike-image {
+    transform: scale(1.05);
+  }
+  
+  .bike-info {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .bike-name {
+    color: #333;
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .bike-price {
+    color: #28a745;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .view-details-button {
+    background-color: #007bff; 
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .view-details-button:hover {
+    background-color: #0056b3;
+  }
